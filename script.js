@@ -1,7 +1,7 @@
 /* ========== Strap Boutique - WhatsApp Integration ========== */
 
 // CONSTANT: WhatsApp phone number (replace with actual number)
-const WHATSAPP_NUMBER = '91XXXXXXXXXX';
+const WHATSAPP_NUMBER = '919328980936';
 
 /**
  * Opens WhatsApp with a prefilled message

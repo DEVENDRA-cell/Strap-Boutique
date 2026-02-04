@@ -13,7 +13,12 @@
     <header class="navbar">
         <div class="navbar-container">
             <a href="#" class="navbar-logo">Strap Boutique</a>
-            <nav class="navbar-nav">
+            <button class="navbar-toggle" aria-label="Toggle navigation" aria-controls="primary-navigation" aria-expanded="false" onclick="toggleMenu()">
+                <span class="navbar-toggle-bar"></span>
+                <span class="navbar-toggle-bar"></span>
+                <span class="navbar-toggle-bar"></span>
+            </button>
+            <nav class="navbar-nav" id="primary-navigation">
                 <a href="#home" class="nav-link">Home</a>
                 <a href="#shop" class="nav-link">Shop</a>
                 <a href="#about" class="nav-link">About</a>
@@ -22,47 +27,10 @@
         </div>
     </header>
 
-    <!-- Promotional Hero Section -->
-    <section class="promo-hero" id="shop">
-        <div class="promo-container">
-            <!-- Left Side: Text & CTA -->
-            <div class="promo-left">
-                <h2 class="promo-heading">HOLIDAY SALE – 50% OFF</h2>
-                <p class="promo-description">Interchangeable shoe straps that allow you to switch your style in seconds.</p>
-                
-                <div class="promo-features">
-                    <div class="promo-feature">
-                        <span class="promo-arrow">→</span>
-                        <span>Travel Friendly</span>
-                    </div>
-                    <div class="promo-feature">
-                        <span class="promo-arrow">→</span>
-                        <span>Space Saving</span>
-                    </div>
-                    <div class="promo-feature">
-                        <span class="promo-arrow">→</span>
-                        <span>Cost Saving</span>
-                    </div>
-                </div>
-                
-                <button class="cta-button promo-cta" data-message="Hello! I want to know more about your shoe straps">Shop on WhatsApp</button>
-            </div>
-
-            <!-- Right Side: Image Collage -->
-            <div class="promo-right">
-                <div class="promo-collage">
-                    <img src="https://via.placeholder.com/300x400/E8DCC8/FFFFFF?text=Style+1" alt="Shoe strap style 1" class="collage-img collage-img-1">
-                    <img src="https://via.placeholder.com/280x350/F5E6D3/FFFFFF?text=Style+2" alt="Shoe strap style 2" class="collage-img collage-img-2">
-                    <img src="https://via.placeholder.com/320x380/DCC8B8/FFFFFF?text=Style+3" alt="Shoe strap style 3" class="collage-img collage-img-3">
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-image">
-            <img src="https://via.placeholder.com/1200x700/E8DCC8/FFFFFF?text=Premium+Shoe+Straps" alt="Premium women's shoe straps lifestyle">
+            <img src="https://via.placeholder.com/1200x700/E8DCC8/FFFFFF?text=Premium+Shoe+Straps" alt="Premium women's shoe straps lifestyle" width="1200" height="700">
         </div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
@@ -76,7 +44,7 @@
     <section class="lifestyle-section">
         <div class="lifestyle-grid">
             <div class="lifestyle-image">
-                <img src="https://via.placeholder.com/600x500/F5E6D3/FFFFFF?text=Design+Transform" alt="Designed to transform your shoes">
+                <img src="https://via.placeholder.com/600x500/F5E6D3/FFFFFF?text=Design+Transform" alt="Designed to transform your shoes" width="600" height="500">
             </div>
             <div class="lifestyle-content">
                 <h2 class="section-heading">Designed to Transform</h2>
@@ -95,7 +63,7 @@
                 <button class="cta-button secondary" data-message="Show me your everyday and occasion collections">Explore via WhatsApp</button>
             </div>
             <div class="lifestyle-image">
-                <img src="https://via.placeholder.com/600x500/DCC8B8/FFFFFF?text=Everyday+Occasions" alt="Everyday and occasion shoe straps">
+                <img src="https://via.placeholder.com/600x500/DCC8B8/FFFFFF?text=Everyday+Occasions" alt="Everyday and occasion shoe straps" width="600" height="500">
             </div>
         </div>
     </section>
@@ -104,7 +72,7 @@
     <section class="lifestyle-section">
         <div class="lifestyle-grid">
             <div class="lifestyle-image">
-                <img src="https://via.placeholder.com/600x500/E8DCC8/FFFFFF?text=Minimal+Elegant" alt="Minimal and elegant shoe strap design">
+                <img src="https://via.placeholder.com/600x500/E8DCC8/FFFFFF?text=Minimal+Elegant" alt="Minimal and elegant shoe strap design" width="600" height="500">
             </div>
             <div class="lifestyle-content">
                 <h2 class="section-heading">Minimal. Elegant. You.</h2>

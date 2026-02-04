@@ -19,6 +19,21 @@ function openWhatsApp(message) {
 }
 
 /**
+ * Toggle mobile navigation menu
+ */
+function toggleMenu() {
+    const nav = document.getElementById('primary-navigation');
+    const toggle = document.querySelector('.navbar-toggle');
+
+    if (!nav || !toggle) {
+        return;
+    }
+
+    const isOpen = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(isOpen));
+}
+
+/**
  * Initialize WhatsApp buttons and smooth scroll for internal links
  */
 document.addEventListener('DOMContentLoaded', function() {
@@ -53,6 +68,22 @@ document.addEventListener('DOMContentLoaded', function() {
                     behavior: 'smooth',
                     block: 'start'
                 });
+            }
+        });
+    });
+
+    // Close mobile menu when a nav link is clicked
+    const mobileNavLinks = document.querySelectorAll('.nav-link');
+    const mobileNav = document.getElementById('primary-navigation');
+    const mobileToggle = document.querySelector('.navbar-toggle');
+
+    mobileNavLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            if (mobileNav && mobileNav.classList.contains('open')) {
+                mobileNav.classList.remove('open');
+                if (mobileToggle) {
+                    mobileToggle.setAttribute('aria-expanded', 'false');
+                }
             }
         });
     });

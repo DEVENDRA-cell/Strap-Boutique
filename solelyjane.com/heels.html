@@ -1,0 +1,463 @@
+<!doctype html>
+<html class="no-js no-touch supports-no-cookies" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#ab8c52">
+    <link rel="canonical" href="https://solelyjane.com/heels.html">
+
+    <title>Solely Jane Heels</title>
+
+    <link href="//solelyjane.com/cdn/shop/t/18/assets/theme.css?v=64620864768860856411747849695" rel="stylesheet" type="text/css" media="all" />
+    <link href="//solelyjane.com/cdn/shop/t/18/assets/swatches.css?v=157844926215047500451747849695" rel="stylesheet" type="text/css" media="all" />
+
+    <style data-shopify>
+        @font-face {
+            font-family: Poppins;
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+            src: url("//solelyjane.com/cdn/fonts/poppins/poppins_n4.0ba78fa5af9b0e1a374041b3ceaadf0a43b41362.woff2") format("woff2"), url("//solelyjane.com/cdn/fonts/poppins/poppins_n4.214741a72ff2596839fc9760ee7a770386cf16ca.woff") format("woff");
+        }
+
+        @font-face {
+            font-family: Poppins;
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+            src: url("//solelyjane.com/cdn/fonts/poppins/poppins_n5.ad5b4b72b59a00358afc706450c864c3c8323842.woff2") format("woff2"), url("//solelyjane.com/cdn/fonts/poppins/poppins_n5.33757fdf985af2d24b32fcd84c9a09224d4b2c39.woff") format("woff");
+        }
+
+        @font-face {
+            font-family: Karla;
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+            src: url("//solelyjane.com/cdn/fonts/karla/karla_n4.40497e07df527e6a50e58fb17ef1950c72f3e32c.woff2") format("woff2"), url("//solelyjane.com/cdn/fonts/karla/karla_n4.e9f6f9de321061073c6bfe03c28976ba8ce6ee18.woff") format("woff");
+        }
+
+        :root,
+        .color-scheme-1 {
+            --COLOR-BG-GRADIENT: #fcfbf9;
+            --COLOR-BG: #fcfbf9;
+            --COLOR-BG-RGB: 252, 251, 249;
+            --COLOR-BG-ACCENT: #f5f2ec;
+            --COLOR-BG-ACCENT-LIGHTEN: #ffffff;
+            --COLOR-LINK: #282c2e;
+            --COLOR-LINK-A50: rgba(40, 44, 46, 0.5);
+            --COLOR-LINK-A70: rgba(40, 44, 46, 0.7);
+            --COLOR-LINK-HOVER: rgba(40, 44, 46, 0.7);
+            --COLOR-LINK-OPPOSITE: #ffffff;
+            --COLOR-TEXT: #212121;
+            --COLOR-TEXT-HOVER: rgba(33, 33, 33, 0.7);
+            --COLOR-TEXT-LIGHT: #636262;
+            --COLOR-TEXT-DARK: #000000;
+            --COLOR-BORDER: rgb(209, 205, 196);
+            --COLOR-ACCENT: #ab8c52;
+            --COLOR-ACCENT-HOVER: #806430;
+            --COLOR-ACCENT-LIGHT: #e8d4ae;
+            --BTN-PRIMARY-BG: #212121;
+            --BTN-PRIMARY-TEXT: #ffffff;
+            --BTN-PRIMARY-BORDER: #212121;
+            --BTN-SECONDARY-BG: #ab8c52;
+            --BTN-SECONDARY-TEXT: #ffffff;
+            --BTN-SECONDARY-BORDER: #ab8c52;
+        }
+
+        .heels-hero {
+            background: linear-gradient(180deg, #f7f3ee 0%, #fcfbf9 55%, #ffffff 100%);
+            color: var(--COLOR-TEXT);
+            padding-top: calc(var(--HEADER-HEIGHT, 136px) + 10px);
+            padding-bottom: 40px;
+        }
+
+        .heels-hero__grid {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 48px;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 28px 0 12px;
+        }
+
+        .heels-hero__media {
+            position: relative;
+            overflow: hidden;
+            aspect-ratio: 3 / 2;
+            background: #e9e3db;
+            border-radius: 18px;
+            box-shadow: 0 22px 48px rgba(33, 33, 33, 0.16);
+        }
+
+        .heels-hero__content {
+            background: #ffffff;
+            padding: 32px 34px;
+            border-radius: 16px;
+            box-shadow: 0 18px 40px rgba(33, 33, 33, 0.08);
+        }
+
+        .heels-hero__content .heading-large {
+            margin-bottom: 16px;
+            letter-spacing: 0.4px;
+        }
+
+        .heels-hero__content .body-medium {
+            color: var(--COLOR-TEXT-LIGHT);
+            line-height: 1.7;
+            margin-bottom: 18px;
+        }
+
+        .heels-hero__content .body-medium:last-child {
+            margin-bottom: 0;
+        }
+
+        .heels-hero__slide {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            animation: heelsFade 12s infinite;
+        }
+
+        .heels-hero__slide:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        .heels-hero__slide:nth-child(2) {
+            animation-delay: 4s;
+        }
+
+        .heels-hero__slide:nth-child(3) {
+            animation-delay: 8s;
+        }
+
+        @keyframes heelsFade {
+            0% {
+                opacity: 0;
+            }
+
+            8% {
+                opacity: 1;
+            }
+
+            33% {
+                opacity: 1;
+            }
+
+            41% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 990px) {
+            .heels-hero__grid {
+                grid-template-columns: 1fr;
+                gap: 28px;
+            }
+
+            .heels-hero__content {
+                padding: 24px 22px;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .heels-hero__slide {
+                animation: none;
+                opacity: 1;
+            }
+
+            .heels-hero__slide:not(:first-child) {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body id="solely-jane-heels" class="template-page grid-classic" data-animations="true">
+    <div class="container" data-site-container>
+        <div class="header-sections">
+            <!-- BEGIN sections: group-header -->
+
+            <div id="shopify-section-sections--19485518168314__header" class="shopify-section shopify-section-group-group-header page-header">
+                <style data-shopify>
+                    :root {
+                        --HEADER-HEIGHT: 136px;
+                        --HEADER-HEIGHT-MEDIUM: 128.0px;
+                        --HEADER-HEIGHT-MOBILE: 120.0px;
+                        --icon-add-cart: var(--ICON-ADD-BAG);
+                    }
+
+                    .theme__header {
+                        --PT: 10px;
+                        --PB: 10px;
+                    }
+
+                    .header__logo__link {
+                        --logo-padding: 80.0%;
+                        --logo-width-desktop: 125px;
+                        --logo-width-mobile: 120px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    .header__desktop__upper,
+                    .header__desktop__bar__l,
+                    .header__desktop__bar__c {
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .header__logo__link img {
+                        height: 40px;
+                        width: auto;
+                        margin-top: 27px;
+                    }
+
+                    .header__desktop__upper {
+                        min-height: 88px;
+                    }
+
+                    .footer__logo img {
+                        height: clamp(28px, 5vw, 48px);
+                        width: auto;
+                        display: block;
+                        margin: 0 auto;
+                    }
+
+                    .main-content>.shopify-section:first-of-type .backdrop--linear:before {
+                        display: none;
+                    }
+                </style>
+                <header-component class="header__wrapper" data-header-wrapper data-header-sticky data-header-style="logo_beside" data-section-id="sections--19485518168314__header" data-section-type="header">
+                    <header class="theme__header" role="banner" data-header-height data-aos="fade">
+                        <div class="section-padding">
+                            <div class="header__mobile">
+                                <div class="header__mobile__left">
+                                    <div class="header__mobile__button">
+                                        <button class="header__mobile__hamburger" data-drawer-toggle="hamburger" aria-label="Show menu" aria-haspopup="true" aria-expanded="false" aria-controls="header-menu"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-menu" viewBox="0 0 24 24"><path d="M3 5h18M3 12h18M3 19h18" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                                    </div>
+                                </div>
+
+                                <div class="header__logo header__logo--image">
+                                    <a class="header__logo__link" href="/" data-logo-link>
+                                        <figure class="logo__img logo__img--color image-wrapper lazy-image is-loading" style="--aspect-ratio: 1.25;"><img src="/cdn/shop/files/solely_logo.png?crop=center&amp;height=200&amp;width=250" alt="Solely Jane" width="250" height="200" loading="eager" srcset="/cdn/shop/files/solely_logo.png?width=125 125w, /cdn/shop/files/solely_logo.png?width=188 188w, /cdn/shop/files/solely_logo.png?width=250 250w, /cdn/shop/files/solely_logo.png?width=120 120w, /cdn/shop/files/solely_logo.png?width=180 180w, /cdn/shop/files/solely_logo.png?width=240 240w"
+                                                sizes="(min-width: 750px) 125px, (min-width: 240px) 120px, calc((100vw - 64px) * 0.5)" fetchpriority="high" class=" is-loading ">
+                                        </figure>
+                                    </a>
+                                </div>
+
+                                <div class="header__mobile__right">
+
+                                    <div class="header__mobile__button">
+                                        <a href="/account" class="navlink"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-profile-circled" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.271 18.346S6.5 15.5 12 15.5s7.73 2.846 7.73 2.846M12 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="visually-hidden">Account</span>
+        </a>
+                                    </div>
+                                    <div class="header__mobile__button">
+                                        <a href="/cart" class="navlink navlink--cart navlink--cart--circle" data-cart-toggle>
+                                            <div class="navlink__cart__content">
+                                                <span class="visually-hidden">Cart</span>
+
+                                                <span class="header__cart__status__holder">
+      <cart-count class="header__cart__status" data-status-separator=": " data-cart-count="0" data-limit="10">
+        0
+      </cart-count></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="header__desktop" data-header-desktop>
+                                <div class="header__desktop__upper" data-takes-space-wrapper>
+                                    <div data-child-takes-space class="header__desktop__bar__l">
+                                        <div class="header__logo header__logo--image">
+                                            <a class="header__logo__link" href="/" data-logo-link>
+                                                <figure class="logo__img logo__img--color image-wrapper lazy-image is-loading" style="--aspect-ratio: 1.25;"><img src="/cdn/shop/files/solely_logo.png?crop=center&amp;height=200&amp;width=250" alt="Solely Jane" width="250" height="200" loading="eager" srcset="/cdn/shop/files/solely_logo.png?width=125 125w, /cdn/shop/files/solely_logo.png?width=188 188w, /cdn/shop/files/solely_logo.png?width=250 250w, /cdn/shop/files/solely_logo.png?width=120 120w, /cdn/shop/files/solely_logo.png?width=180 180w, /cdn/shop/files/solely_logo.png?width=240 240w"
+                                                        sizes="(min-width: 750px) 125px, (min-width: 240px) 120px, calc((100vw - 64px) * 0.5)" fetchpriority="high" class=" is-loading ">
+                                                </figure>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div data-child-takes-space class="header__desktop__bar__c">
+                                        <nav class="header__menu" style="--highlight: #d02e2e;">
+
+                                            <div class="menu__item  child">
+                                                <a href="/" data-top-link class="navlink navlink--toplevel">
+    <span class="navtext">Home</span>
+  </a>
+
+                                            </div>
+
+
+                                            <div class="menu__item  child">
+                                                <a href="/heels.html" data-top-link class="navlink navlink--toplevel">
+    <span class="navtext">Shop Heels</span>
+  </a>
+
+                                            </div>
+
+
+                                            <div class="menu__item  child">
+                                                <a href="/collections/all-flats" data-top-link class="navlink navlink--toplevel">
+    <span class="navtext">Shop Flats</span>
+  </a>
+
+                                            </div>
+                                            <div class="hover__bar"></div>
+
+                                            <div class="hover__bg"></div>
+                                        </nav>
+                                    </div>
+
+                                    <div data-child-takes-space class="header__desktop__bar__r">
+                                        <div class="header__desktop__buttons header__desktop__buttons--icons">
+                                            <div class="header__desktop__button">
+                                                <a href="/account" class="navlink" title="My Account"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-profile-circled" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.271 18.346S6.5 15.5 12 15.5s7.73 2.846 7.73 2.846M12 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="visually-hidden">Account</span>
+        </a>
+                                            </div>
+                                            <div class="header__desktop__button">
+                                                <a href="/cart" class="navlink navlink--cart navlink--cart--circle" title="Cart" data-cart-toggle>
+                                                    <div class="navlink__cart__content">
+                                                        <span class="visually-hidden">Cart</span>
+
+                                                        <span class="header__cart__status__holder">
+      <cart-count class="header__cart__status" data-status-separator=": " data-cart-count="0" data-limit="10">
+        0
+      </cart-count></span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+
+                    <header-drawer class="drawer drawer--header" data-drawer="hamburger" aria-label="Menu" id="header-menu">
+                        <div class="drawer__inner" data-drawer-inner>
+                            <header class="drawer__head">
+                                <button class="drawer__close" data-drawer-close aria-label="Show menu" aria-haspopup="true" aria-expanded="true" aria-controls="header-menu"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cancel" viewBox="0 0 24 24"><path d="M6.758 17.243 12.001 12m5.243-5.243L12 12m0 0L6.758 6.757M12.001 12l5.243 5.243" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                            </header>
+
+                            <div class="drawer__body">
+                                <div class="drawer__content" data-drawer-content>
+                                    <div class="drawer__content__scroll" data-scroll-lock-scrollable>
+                                        <nav class="drawer__menu" data-scroll-lock-scrollable data-sliderule-pane="0" style="--highlight: #d02e2e;">
+                                            <div class="drawer__main-menu">
+                                                <div class="sliderule__wrapper">
+                                                    <div class="sliderow" role="button" data-animates="0" data-animation="drawer-items-fade" data-animation-delay="250" data-animation-duration="500">
+                                                        <a class="sliderow__title" href="/">
+      <span>
+        Home
+</span>
+    </a>
+                                                    </div>
+                                                </div>
+                                                <div class="sliderule__wrapper">
+                                                    <div class="sliderow" role="button" data-animates="0" data-animation="drawer-items-fade" data-animation-delay="300" data-animation-duration="500">
+                                                        <a class="sliderow__title" href="/heels.html">
+      <span>
+        Shop Heels
+</span>
+    </a>
+                                                    </div>
+                                                </div>
+                                                <div class="sliderule__wrapper">
+                                                    <div class="sliderow" role="button" data-animates="0" data-animation="drawer-items-fade" data-animation-delay="350" data-animation-duration="500">
+                                                        <a class="sliderow__title" href="/collections/all-flats">
+      <span>
+        Shop Flats
+</span>
+    </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <span class="underlay drawer__underlay" data-drawer-underlay></span>
+                    </header-drawer>
+                </header-component>
+
+                <div class="header__backfill" data-header-backfill></div>
+
+                <script type="application/ld+json">
+                    {
+                        "@context": "http://schema.org",
+                        "@type": "Organization",
+                        "name": "SolelyJane",
+
+                        "logo": "https:\/\/solelyjane.com\/cdn\/shop\/files\/solely_logo.png?width=500",
+
+                        "sameAs": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ],
+                        "url": "https:\/\/solelyjane.com"
+                    }
+                </script>
+                <script type="application/ld+json">
+                    {
+                        "@context": "http://schema.org",
+                        "@type": "WebSite",
+                        "name": "SolelyJane",
+                        "potentialAction": {
+                            "@type": "SearchAction",
+                            "target": "https:\/\/solelyjane.com\/search?q={search_term_string}",
+                            "query-input": "required name=search_term_string"
+                        },
+                        "url": "https:\/\/solelyjane.com"
+                    }
+                </script>
+            </div>
+            <!-- END sections: group-header -->
+        </div>
+
+        <main role="main" id="MainContent" class="main-content">
+            <section class="section-padding color-scheme-1 heels-hero">
+                <div class="wrapper--full-padded heels-hero__grid">
+                    <div class="heels-hero__media" aria-label="Solely Jane heels gallery">
+                        <img class="heels-hero__slide" src="/cdn/shop/files/heel1.jpeg" alt="Solely Jane heels 1">
+                        <img class="heels-hero__slide" src="/cdn/shop/files/heel2.jpeg" alt="Solely Jane heels 2">
+                        <img class="heels-hero__slide" src="/cdn/shop/files/heel3.jpeg" alt="Solely Jane heels 3">
+                    </div>
+                    <div class="heels-hero__content">
+                        <h2 class="heading-large">SOLELY JANE HEELS <sup>20</sup></h2>
+                        <p class="body-medium">
+                            Solely Jane's interchangeable heels offer the perfect blend of versatility, comfort, and convenience. Thousands of happy customers love how they save closet space, money, and make packing for travel effortless — all while providing stylish looks and all-day comfort. With Solely Jane, you get more out of every pair.
+                        </p>
+                        <p class="body-medium">
+                            Our Comfort Classic Heel is a 2.5 inch heel that delivers a timeless silhouette to complement any outfit. From professional attire to formal occasions, this versatile shoe is a must-have addition to your wardrobe.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
